@@ -2,26 +2,46 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="css/style.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Welcome to Kokoa Tlak</title>
+  <title>Welcome to Kokoa Clone</title>
 </head>
 
 <body>
- <div id="status-bar">
-   <div class="status-bar__columm">
-     <span>No Service</span>
-     <!-- To Do:WIFI Icon -->
-   </div>
-   <div class="status-bar__columm">
-     <span>22:23</span>
-   </div>
-   <div class="status-bar__columm">
-     <span>74%</span>
-     <!-- Battery Icon-->
-     <!-- Lightning Icon-->
-   </div>
- </div>
+  <div class="status-bar">
+    <div class="status-bar__columm">
+      <span>No Service</span>
+      <i class="fa-solid fa-wifi"></i>
+    </div>
+    <div class="status-bar__columm">
+      <span>22:23</span>
+    </div>
+    <div class="status-bar__columm">
+      <span>74%</span>
+      <i class="fa-solid fa-battery-half fa-lg"></i>
+      <i class="fa-solid fa-bolt-lightning"></i>
+      <!-- Battery Icon-->
+      <!-- Lightning Icon-->
+    </div>
+  </div>
+
+  <header class="welcome-header">
+    <h1 class="welcome-header__title">코코아톡에 방문하신 것을 환영합니다.</h1>
+    <p class="welcome-header__text">코코아 계정이 있으시다면, 로그인해주세요.</p>
+  </header>
+
+  <form id="login-form">
+    <input type="text" placeholder="이메일을 입력해주세요." />
+    <input type="password" placeholder="비밀번호를 입력해주세요." />
+    <input type="submit" value="Log In" />
+    <a href="#">계정 및 비밀번호 찾기</a>
+  </form>
+
+
+
+
+  <script src="https://kit.fontawesome.com/12ea18d2f7.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
