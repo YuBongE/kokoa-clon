@@ -8,6 +8,9 @@
 
 #fridens-display-link i {
   color: #d5d5d5;
-  ;
   margin: 0px 10px;
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
 }
