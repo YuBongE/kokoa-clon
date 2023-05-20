@@ -1,3 +1,7 @@
+.user-component {
+  justify-content: space-between;
+}
+
 .user-component,
 .user-component__column:first-child {
   display: flex;
@@ -8,10 +12,10 @@
   width: 60px;
   height: 60px;
   border-radius: 30px;
+  margin-right: 15px;
 }
 
 .user-component__title {
-  font-weight: 600px;
   font-family: 'apple-SB';
   font-size: 20px;
 }
@@ -25,4 +29,27 @@
 .user-component__avatar--xl {
   width: 70px;
   height: 70px;
+}
+
+.user-component__avatar--sm {
+  width: 50px;
+  height: 50px;
+  border-radius: 37%;
+}
+
+.user-component__title--not-bold {
+  font-family: 'apple-R';
+}
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__time {
+  margin-bottom: 5px;
+  display: block;
+  color: rgba(0, 0, 0, 0.4);
 }
