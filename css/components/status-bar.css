@@ -26,3 +26,9 @@
 .status-bar__columm .fa-battery-half {
   margin: 0px 5px;
 }
+
+.status-bar__notifications {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+}
