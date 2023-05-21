@@ -3,4 +3,6 @@
   --horizontal-space: 25px;
   --main-border: 1px solid rgba(0, 0, 0, 0.3);
   --main-color-gray: rgba(0, 0, 0, 0.4);
+  --font-apple-R: 'apple-R';
+  --font-apple-SB: 'apple-SB';
 }
