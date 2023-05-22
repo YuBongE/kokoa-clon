@@ -24,3 +24,27 @@
 .more-suggesticons__title {
   margin-bottom: 30px;
 }
+
+.more-suggesticons__icons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.more-suggesticons__icon {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more-suggesticons__icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+.more-suggesticons__icon span {
+  color: var(--main-color-gray);
+  font-size: 14px;
+}
