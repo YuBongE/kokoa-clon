@@ -1,0 +1,26 @@
+.more-screen .icon-row {
+  margin-top: 30px;
+}
+
+.user-component__subtitle {
+  color: var(--main-color-gray);
+}
+
+.user-component__phone-number {
+  display: flex;
+  align-items: center;
+}
+
+.more-component__Exclamation {
+  margin-left: 5px;
+}
+
+.more-suggesticons {
+  margin-top: 50px;
+  border-top: var(--main-border);
+  padding-top: 30px;
+}
+
+.more-suggesticons__title {
+  margin-bottom: 30px;
+}

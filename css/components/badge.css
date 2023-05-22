@@ -14,3 +14,14 @@
   width: 5px;
   height: 5px;
 }
+
+.Exclamation-mark {
+  border-radius: 50%;
+  border: 1px solid #ff6d5d;
+  width: 10px;
+  height: 10px;
+  color: #ff6d5d;
+  align-items: center;
+  text-align: center;
+  font-size: 9px;
+}
