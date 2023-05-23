@@ -18,10 +18,11 @@
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/settings.css";
+@import "screens/chat.css";
 
 body {
   font-family: "apple-R", sans-serif;
-  color: #2e363e;
+  padding-top: 30px;
 }
 
 .main-screen {

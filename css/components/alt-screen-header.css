@@ -1,11 +1,33 @@
 .alt-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: var(--horizontal-space);
+  padding: 20px var(--horizontal-space) 10px var(--horizontal-space);
+  top: 26px;
+  margin-bottom: 20px;
 }
 
 .alt-header__title {
   font-family: var(--font-apple-SB);
   font-size: 25px;
+
+}
+
+.alt-header__column {
+  width: 33%;
+  display: flex;
+}
+
+.alt-header__column:nth-child(2) {
+  justify-content: center;
+  align-items: center;
+}
+
+.alt-header__column:last-child {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.alt-header__column span:last-child {
+  margin-left: 15px;
 }

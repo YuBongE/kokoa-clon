@@ -1,0 +1,21 @@
+.caht-screen {
+  background-color: #abc1d1;
+  height: 11000vh;
+}
+
+.caht-screen .status-bar {
+  background-color: #abc1d1;
+  z-index: 2;
+}
+
+.caht-screen .alt-header {
+  background-color: #abc1d1;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.main-chat {
+  margin-top: 80px;
+}
